@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Rotación - Cuidado del Abuelo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS enlazado -->
+</head>
+<body>
+
+    <h1>Calendario de Rotación - Cuidado del Abuelo</h1>
+
+    <!-- Controles de navegación -->
+    <div class="nav-buttons">
+        <button id="prev-month">Mes Anterior</button>
+        <span id="current-month"></span>
+        <button id="next-month">Mes Siguiente</button>
+    </div>
+
+    <!-- Tabla del calendario -->
+    <div class="calendar">
+        <table>
+            <thead>
+                <tr>
+                    <th>Semana</th>
+                    <th>Fecha de Inicio</th>
+                    <th>Fecha de Finalización</th> <!-- Nueva columna -->
+                    <th>Hermano Responsable</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Aquí se rellenarán las semanas con JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script> <!-- Archivo JavaScript enlazado -->
+</body>
+</html>

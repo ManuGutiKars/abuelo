@@ -1,0 +1,74 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo del título */
+h1 {
+    color: #333;
+}
+
+/* Estilo de los botones de navegación */
+.nav-buttons {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#current-month {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo del calendario */
+.calendar {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo de las celdas y cabeceras */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilo de la cabecera */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de las filas */
+td {
+    background-color: #fafafa;
+}
